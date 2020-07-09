@@ -17,5 +17,11 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jfr" level="project" />
+    <orderEntry type="library" name="jfxswt" level="project" />
+    <orderEntry type="library" name="javaws" level="project" />
+    <orderEntry type="library" name="jsp-api" level="project" />
+    <orderEntry type="library" name="servlet-api" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.55" level="application_server_libraries" />
   </component>
 </module>
