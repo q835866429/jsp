@@ -13,7 +13,7 @@
             single.setName(names[i]);                    //封装商品名称信息
             single.setPrice(prices[i]);                //封装商品价格信息
             single.setNum(1);                            //封装购买数量信息
-            goodslist.add(i, single);                    //保存商品到goodslist集合对象中
+            goodslist.add(i, single);                      //保存商品到goodslist集合对象中
         }
     }
 %>
