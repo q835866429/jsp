@@ -18,7 +18,7 @@
         myCar.removeItem(name);        //调用ShopCar类中的removeItem()方法移除商品
         response.sendRedirect("shopcar.jsp");
     } else if (action.equals("clear")) {                            //清空购物车
-        myCar.clearCar();                //调用ShopCar类中的clearCar()方法清空购物车
+        myCar.clearCar();                //调用ShopCar类 的clearCar()方法清空购物车
         response.sendRedirect("shopcar.jsp");
     } else {
         response.sendRedirect("show.jsp");
