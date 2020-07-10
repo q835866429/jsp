@@ -56,6 +56,6 @@
     </tr>
     <tr height="50" align="center">
         <td colspan="2"><a href="show.jsp">继续购物</a></td>
-        <td colspan="3"><a href="docar.jsp?action=clear">清空购物车</a></td>
+        <td colspan="3"><a href="docar.jsp?action=clear">清空购物 车</a></td>
     </tr>
 </table>
