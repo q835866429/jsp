@@ -31,7 +31,7 @@
             float price = single.getPrice();                            //获取商品价格
             int num = single.getNum();                                //获取购买数量
             float money = ((int) ((price * num + 0.05f) * 10)) / 10f;            //计算当前商品总价，并进行四舍五入
-            total += money;                                            //计算应付金额
+            total += money;                                            //计算应  付金额
     %>
     <tr align="center" height="50">
         <td><%=name%>
@@ -56,6 +56,6 @@
     </tr>
     <tr height="50" align="center">
         <td colspan="2"><a href="show.jsp">继续购物</a></td>
-        <td colspan="3"><a href="docar.jsp?action=clear">清空购物 车</a></td>
+        <td colspan="3"><a href="docar.jsp?action=clear">清空购物车</a></td>
     </tr>
 </table>
