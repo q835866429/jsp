@@ -29,6 +29,7 @@
         <td>
             <button type="submit">
                 <span>登录</span>
+                <span>注册</span>
             </button>
         </td>
     </tr>

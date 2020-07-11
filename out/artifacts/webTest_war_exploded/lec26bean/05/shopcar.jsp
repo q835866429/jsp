@@ -4,8 +4,8 @@
 <!-- 通过动作标识，获取ShopCar类实例 -->
 <jsp:useBean id="myCar" class="bean.e05.toolbean.ShopCar" scope="session"/>
 <%
-    ArrayList buylist = myCar.getBuylist();        //获取实例中用来存储购买的商品的集合
-    float total = 0;                                //用来存储应付金额
+    ArrayList buylist = myCar.getBuylist();        //
+    float total = 0;                                //
 %>
 
 <table border="1" width="450" rules="none" cellspacing="0" cellpadding="0">
@@ -31,7 +31,7 @@
             float price = single.getPrice();                            //获取商品价格
             int num = single.getNum();                                //获取购买数量
             float money = ((int) ((price * num + 0.05f) * 10)) / 10f;            //计算当前商品总价，并进行四舍五入
-            total += money;                                            //计算应付金额
+            total += money;                                            //计算应  付金额
     %>
     <tr align="center" height="50">
         <td><%=name%>
