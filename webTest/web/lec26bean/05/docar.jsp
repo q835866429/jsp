@@ -14,7 +14,7 @@
         myCar.addItem(single);        //调用ShopCar类中的ad)方法      加商品
         response.sendRedirect("show.jsp");
     } else if (action.equals("remove")) {                            //移除商品
-        String name = request.getParameter("name");        //获取商品名称
+        String name = request.getParameter("name");        //获品名称
         myCar.removeItem(name);        //调用ShopCar类中的removeItem()方法移除商品
         response.sendRedirect("shopcar.jsp");
     } else if (action.equals("clear")) {                            //清空购物车
