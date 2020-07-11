@@ -4,7 +4,7 @@
 <!-- 通过动作标识，获取ShopCar类实例 -->
 <jsp:useBean id="myCar" class="bean.e05.toolbean.ShopCar" scope="session"/>
 <%
-    ArrayList buylist = myCar.getBuylist();        //获取实例中用来存储购买的商品的集合
+    ArrayList buylist = myCar.getBuylist();        //
     float total = 0;                                //
 %>
 
