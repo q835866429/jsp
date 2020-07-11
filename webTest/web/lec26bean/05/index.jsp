@@ -11,7 +11,7 @@
             //定义一个GoodsSingle类对象来封装商品信息
             GoodsSingle single = new GoodsSingle();
             single.setName(names[i]);                    //封装商品名称信息
-            single.setPrice(prices[i]);                //封装商品价格信息
+            single.setPrice(prices[i]);                //封装商品息
             single.setNum(1);                            //封装购买数量信息
             goodslist.add(i, single);                      //保存商品到goodslist集合对象中
         }
