@@ -11,7 +11,7 @@
         ArrayList goodslist = (ArrayList) session.getAttribute("goodslist");
         int id = MyTools.strToint(request.getParameter("id"));
         GoodsSingle single = (GoodsSingle) goodslist.get(id);
-        myCar.addItem(single);        //调用ShopCar类中的addItem()方法添加商品
+        myCar.addItem(single);        //调用ShopCar类中的addItem()方法   添加商品
         response.sendRedirect("show.jsp");
     } else if (action.equals("remove")) {                            //移除商品
         String name = request.getParameter("name");        //获取商品名称
