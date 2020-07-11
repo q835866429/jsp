@@ -5,7 +5,7 @@
 <jsp:useBean id="myCar" class="bean.e05.toolbean.ShopCar" scope="session"/>
 <%
     ArrayList buylist = myCar.getBuylist();        //获取实例中用来存储购买的商品的集合
-    float total = 0;                                //用来存储应付金
+    float total = 0;                                //
 %>
 
 <table border="1" width="450" rules="none" cellspacing="0" cellpadding="0">
