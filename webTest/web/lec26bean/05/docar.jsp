@@ -7,7 +7,7 @@
     String action = request.getParameter("action");
     if (action == null)
         action = "";
-    if (action.equals("buy")) {                                    //π∫¬Ú…Ã∆∑
+    if (action.equals("buy")) {                                    //
         ArrayList goodslist = (ArrayList) session.getAttribute("goodslist");
         int id = MyTools.strToint(request.getParameter("id"));
         GoodsSingle single = (GoodsSingle) goodslist.get(id);
